@@ -10,13 +10,11 @@ Vue.use(VueRouter)
 
 const router = new VueRouter()
 
-
 router.map({
   '/hello': {
     component: Hello
   }
 })
-
 
 router.redirect({
   '*': '/hello'
