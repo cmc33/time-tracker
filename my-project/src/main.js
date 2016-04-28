@@ -10,14 +10,14 @@ Vue.use(VueRouter)
 
 const router = new VueRouter()
 
-//Pointing routes to the components they should use
+
 router.map({
   '/hello': {
     component: Hello
   }
 })
 
-//Any invalid route will redirect to home
+
 router.redirect({
   '*': '/hello'
 })
