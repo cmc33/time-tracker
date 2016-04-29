@@ -36,11 +36,7 @@
       If you have any issues with the setup, please file an issue at this boilerplate's
       <a href="https://github.com/vuejs-templates/webpack" target="_blank">repository</a>.
     </p>
-    <p>
-      You may also want to checkout
-      <a href="https://github.com/vuejs/vue-router/" target="_blank">vue-router</a> for routing and
-      <a href="https://github.com/vuejs/vuex/" target="_blank">vuex</a> for state management.
-    </p>
+    
   </div>
 </template>
 
