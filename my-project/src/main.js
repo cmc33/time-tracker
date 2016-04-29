@@ -5,6 +5,7 @@ import Home from './components/Home.vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 import TimeEntries from './components/TimeEntries.vue'
+import LogTime from './components/LogTime.vue'
 Vue.use(VueResource)
 Vue.use(VueRouter)
 
@@ -15,7 +16,12 @@ router.map({
     component: Home
   },
   '/time-entries': {
-    component: TimeEntries
+    component: TimeEntries,
+    subRoutes: {
+      '/log-time': {
+        component: LogTime
+      }
+    }
   }
 })
 
